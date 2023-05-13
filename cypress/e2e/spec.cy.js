@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+import { createTRPCProxyClient } from "@trpc/client";
+describe("page", () => {
+  it("works", () => {
+    cy.visit("https://example.cypress.io");
+  });
+});
